@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Martin Jung's Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link rel="stylesheet" href="https://use.typekit.net/xov4syt.css">
+        <link rel="stylesheet" href="https://use.typekit.net/bip6tkm.css">
+        <link rel="stylesheet" href="https://use.typekit.net/cry8pli.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I'm <strong>Martin Jung</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-stack Developer</p>
+            <img src="img/martin.png" alt="a picture of Mr Jung" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>I craft websites and apps with elegant simplicity and functionality in mind. Because I believe that prevention is better than a cure, I set out to craft high-quality software that gets the job done right from the outset. </p>
+                </div> <!-- / service -->
+                
+               
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>I am a versatile full-stack developer with strong fundamentals in HTML, CSS, and JavaScript. I also possess solid backend fundamentals in Python with experience creating SQLite
+                        databases and employing agile methodology to build robust programs that are highly error resistant.</p>
+                </div> <!-- / service -->
+                
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Some of my projects</h2>
+            <p class="section__subtitle section__subtitle--work">Click to see live sites and Github repos</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item1.html" class="portfolio__item">
+                    <img src="img/ramen-opening-page.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/dashboard-app.png" alt="" class="portfolio__img">
+                </a>
+    
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/music-discovery-app.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/philosophers-voyage.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item5.html" class="portfolio__item">
+                    <img src="img/kde-ai.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item6.html" class="portfolio__item">
+                    <img src="img/scientific-methodology.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item7.html" class="portfolio__item">
+                    <img src="img/restaurant-delivery-app.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 08 -->
+                <a href="portfolio-item8.html" class="portfolio__item">
+                    <img src="img/augenblick.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 09 -->
+                <a href="portfolio-item9.html" class="portfolio__item">
+                    <img src="img/seiyo.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who am I?</h2>
+            <p class="section__subtitle section__subtitle--about">Full-stack developer, musician and philosopher based in the United Kingdom.</p>
+                    
+            <div class="about-me__body">
+                <p>I'm a web developer and designer based in the UK. For the backend I'm well-versed in Python and SQL databases. For the frontend I'm proficient in HTML, CSS and Javascript. </p>
+                <p>My background is in Philosophy. I hold an MSc in Philosophy from the University of Edinburgh. Outside work I enjoy playing guitar, collecting vinyl records and travelling to learn about and experience new cultures.</p>
+            </div>
+                    
+            <img src="img/site-closing.png" alt="Mr Jung stands, smiling." class="about-me__img">
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:mjung17005@gmail.com" class="footer__link">mjung17005@gmail.com</a>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/martin-jung-a3648028b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/sunyata50071">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
